@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "{{cookiecutter.name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.description}}"
+homepage = "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"
+repository = "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}"
+documentation = "https://{{cookiecutter.control}}/{{cookiecutter.user}}/{{cookiecutter.name}}/blob/master/{{cookiecutter.readme}}"
+authors = ["{{cookiecutter.author}} ({{cookiecutter.user}}) <{{cookiecutter.email}}>"]
+license = "{{cookiecutter.license}}"
+readme = "{{cookiecutter.readme}}"
+keywords = [
+    "python", "package", "example"
+]
+classifiers = [
+    "Development Status :: 4 - Beta"
+]
+
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.python}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "^{{cookiecutter.pytest}}"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+{
+    "name": "project",
+    "version": "0.1.0",
+    "description": "Description.",
+    "author": "anonymous",
+    "email": "anon@local",
+    "user": "anon",
+    "control": "github.com",
+    "license": "LGPL-3.0-or-later",
+    "readme": "README.rst",
+    "python": "3.8",
+    "pytest": "5.2"
+}
